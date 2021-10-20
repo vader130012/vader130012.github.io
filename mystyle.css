@@ -8,15 +8,7 @@
   		}
 		
      p.solid {border-style: solid;}
-p5 {
-  text-indent: 50px;
-}
-  </style>
-p1 {
-  background-color: black;
-  color: white;
-}
-p5 {
-  text-indent: 50px;
-}
 
+body { font-size: 25px;
+}
+p {color: #FFCC00}
