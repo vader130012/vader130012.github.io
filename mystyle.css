@@ -9,9 +9,9 @@
 		
      p.solid {border-style: solid;}
 
-h1 
+p 
 {
-color: Orange;
+color: Orange; font-size: 20px;
 }
 p1
 { color: SlateBlue;
