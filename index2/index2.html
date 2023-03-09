@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Carto Maps </title>
+        <meta name="description" content="A javascript library for viewing images in a fully full screen.">
+
+        <!-- CSS -->
+        <link href='css2/styles2.css' rel='stylesheet'>
+
+        <!-- JS -->
+        <script src='intense.js'></script>
+
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+    	<header>
+			
+    		<div class="logo" onclick="location.href='../index.html';" style="cursor: pointer;">Home</div>
+    		<div class="main">
+    			<h1> Carto Maps </h1>
+    			<p> A collection of carto maps created with the help of ArcGIS and Adobe AI. Credit to the original creator as their work have been the major inspiration for the following map. </p>
+    			
+    		</div>
+    	</header>
+    	<section class="demos">
+    		<!-- Using divs for the demo, for formatting... you can use images if you want!  -->
+    		<div class="demo-image first" data-image="./img2/carto1.jpg" data-title="Molokai, Hawaii" data-caption="Major roads and spot across the one of the Hawaii island"></div>
+    		<div class="demo-image second" data-image="./img2/carto2.jpg" data-title="Class Assignment" data-caption="Were tasked to populate least cost path analysis over wolf sighting data"></div>
+    		<div class="demo-image third"  data-image="./img2/carto3.jpg" data-title="Some extra" data-caption="ESRI Learning portal is a very good source to start learning new tools."></div>
+    	</section>
+		<header>
+			<div class="main">
+				<h1> Click the images to view them at full screen!</h1>
+			</div>
+		</header>
+		
+
+
+
+       
+
+		<script>
+			var elements = document.querySelectorAll( '.demo-image' );
+			Intense( elements );
+		</script>
+
+		<!-- Tweet Button -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </body>
+</html>
+
+<!-- credit : https://github.com/tholman/intense-images -->
