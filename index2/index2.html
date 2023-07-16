@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Carto Maps </title>
+        <meta name="description" content="A javascript library for viewing images in a fully full screen.">
+
+        <!-- CSS -->
+        <link href='css2/styles2.css' rel='stylesheet'>
+
+        <!-- JS -->
+        <script src='intense.js'></script>
+
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+    	<header>
+			
+    		<div class="logo" onclick="window.location.href='https://bharat0905.github.io/portflio/index.html';" style="cursor: pointer;">Home</div>
+    		<div class="main">
+    			<h1> Carto Maps </h1>
+    			<p> A collection of carto maps created with the help of ArcGIS and Adobe AI. Credit to the original creator as their work have been the major inspiration for the following map. This is an tourist map pointing to all the attraction on the island. </p>
+    			
+    		</div>
+    	</header>
+
+
+		<img-comparison-slider>
+		<img slot="first" src="./img2/carto1.jpg" width=100% height=auto/>
+		<img slot="second" src="./img2/carto11.png" width=100% height= auto/>
+	    </img-comparison-slider>
+
+		<script
+		defer
+		src="https://unpkg.com/img-comparison-slider@7/dist/index.js"
+		></script>
+
+
+    	<section class="demos">
+			<h1> click on the maps below to view in full screen, click again to exit zoom.</h1>
+			<p>It might take some time for the images to go full view, kindly pay notice to cursor icon and have patience </p>
+    		<!-- These are actual images, if new images are added then add style2.css under .demo-image  -->
+    		<div class="demo-image first" data-image="./img2/carto1.jpg" data-title="Molokai, Hawaii" data-caption="Major roads and spot across the one of the Hawaii island" style="border: 4px solid rgb(255, 128, 0);"></div>
+    		<h2>Major roads and spot across the one of the Hawaii island</h2>
+			<div class="demo-image second" data-image="./img2/carto2.jpg" data-title="Class Assignment" data-caption="Were tasked to populate least cost path analysis over wolf sighting data" style="border: 4px solid rgb(255, 128, 0);"></div>
+    		<h2>Least Cost Path approach to simulate factor effecting paths taken by wolfs</h2>
+			<div class="demo-image third"  data-image="./img2/rem.png" data-title="River Elevation model, Missouri, USA" data-caption="Interpolating DEM data with river data." style="border: 4px solid rgb(255, 128, 0);"></div>
+			<h2>River Elevation model, to see past of the current river</h2>
+    	</section>
+		<header>
+		</header>
+		<script>
+			var elements = document.querySelectorAll( '.demo-image' );
+			Intense( elements );
+		</script>
+
+		<!-- Tweet Button -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </body>
+</html>
+
