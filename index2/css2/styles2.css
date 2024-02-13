@@ -80,6 +80,8 @@ footer h1 {
     background-image: url("../img2/carto2.jpg"); }
   .demo-image.third {
     background-image: url("../img2/river_thumbnail.jpg"); }
+  .demo-image.fourth {
+	background-image: url("../img2/hhlt_map.jpg");}
 
 footer h1 {
   padding-left: 20px;
